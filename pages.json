@@ -1,0 +1,121 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/main/main",
+            "style": {
+                "navigationBarTitleText": "登录模板"
+            }
+        }, {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        }, {
+            "path": "pages/reg/reg",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        }, {
+            "path": "pages/pwd/pwd",
+            "style": {
+                "navigationBarTitleText": "找回密码"
+            }
+        }, {
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        }, {
+            "path" : "pages/registerPerson/index",
+            "style" : {
+				"navigationBarTitleText": "登记失踪人口"
+			}
+        }, {
+            "path" : "pages/registerPerson/register",
+            "style" : {
+				"navigationBarTitleText": "登记"
+			}
+        }, {
+            "path" : "pages/registerPerson/photo",
+            "style" : {
+				"navigationBarTitleText": "照片"
+			}
+        }, {
+            "path" : "pages/registerPerson/detail",
+            "style" : {
+				"navigationBarTitleText": "详情"
+			}
+        }, {
+            "path" : "pages/volunteer/index",
+            "style" : {
+				"navigationBarTitleText": "志愿者"
+			}
+        }, {
+            "path" : "pages/volunteer/register",
+            "style" : {
+				"navigationBarTitleText": "登记"
+			}
+        }, {
+            "path" : "pages/volunteer/photo",
+            "style" : {
+				"navigationBarTitleText": "照片"
+			}
+        }, {
+            "path" : "pages/volunteer/detail",
+            "style" : {
+				"navigationBarTitleText": "详情"
+			}
+        }, {
+            "path" : "pages/provideClue/index",
+            "style" : {
+				"navigationBarTitleText": "提供线索"
+			}
+        }, {
+            "path" : "pages/provideClue/provide",
+            "style" : {
+				"navigationBarTitleText": "提供线索"
+			}
+        }, {
+            "path" : "pages/provideClue/selectClue",
+            "style" : {
+				"navigationBarTitleText": "选择线索"
+			}
+        }
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#007AFF",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/registerPerson/index",
+            "text": "登记失踪人口",
+            "iconPath": "static/img/edit.png",
+            "selectedIconPath": "static/img/editHL.png"
+        },{
+            "pagePath": "pages/volunteer/index",
+            "text": "志愿者",
+            "iconPath": "static/img/volunteer.png",
+            "selectedIconPath": "static/img/volunteerHL.png"
+        },{
+            "pagePath": "pages/provideClue/index",
+            "text": "提交线索",
+            "iconPath": "static/img/clue.png",
+            "selectedIconPath": "static/img/clueHL.png"
+        },{
+            "pagePath": "pages/main/main",
+            "text": "首页",
+            "iconPath": "static/img/home.png",
+            "selectedIconPath": "static/img/homeHL.png"
+        },{
+            "pagePath": "pages/user/user",
+            "text": "我的",
+            "iconPath": "static/img/user.png",
+            "selectedIconPath": "static/img/userHL.png"
+        }]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#fbf9fe"
+    }
+}
